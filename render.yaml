@@ -3,4 +3,4 @@ services:
     env:
       - key: NODE_ENV
         value: production
-    startCommand: npm start
+    startCommand: npm run dev
