@@ -1,6 +1,4 @@
-services:
-  - name: my-express-app
-    env:
-      - key: NODE_ENV
-        value: production
-    startCommand: npm run build
+build:
+  command: |
+    npm install
+    tsc
