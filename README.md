@@ -5,3 +5,6 @@
 
 ## Database connection
 DBURI = mongodb://localhost:27017/bank
+
+## Postman Documentation
+https://documenter.getpostman.com/view/25181026/2s9Y5ctLPf
