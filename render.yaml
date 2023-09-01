@@ -1,4 +1,6 @@
 build:
   command: |
     npm install
-    tsc
+    npm run build
+    npm start
+    
