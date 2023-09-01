@@ -1,0 +1,10 @@
+import { z } from 'zod';
+
+const BankAccountSchema = z.object({
+  holderName: z.string(),
+  dob: z.date(),
+  accountType: z.string(),
+  initialBalance: z.number().positive(),
+});
+
+export { BankAccountSchema };
